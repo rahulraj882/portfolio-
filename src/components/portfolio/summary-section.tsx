@@ -11,7 +11,7 @@ export default function SummarySection() {
     <SectionWrapper id="summary" title="Professional Summary">
         <div className="flex flex-col md:flex-row items-center gap-12">
             <div className="w-full md:w-1/3 flex justify-center">
-                 <Image 
+                 <Image
                     src="/profile-pic.jpeg"
                     width={250}
                     height={250}
