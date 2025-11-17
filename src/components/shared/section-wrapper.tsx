@@ -15,12 +15,14 @@ export default function SectionWrapper({
   className,
 }: SectionWrapperProps) {
   return (
-    <section id={id} className={cn("container py-16 md:py-24", className)}>
-      <div className="mx-auto max-w-4xl">
-        <h2 className="text-3xl font-bold tracking-tight text-center md:text-4xl text-primary mb-12">
-          {title}
-        </h2>
-        {children}
+    <section id={id} className={cn("py-20 md:py-28", className)}>
+      <div className="container mx-auto px-4 md:px-6">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-4xl md:text-5xl font-black tracking-tight text-center bg-clip-text text-transparent bg-gradient-to-b from-foreground to-foreground/70 pb-4 mb-12">
+            {title}
+          </h2>
+          {children}
+        </div>
       </div>
     </section>
   );
