@@ -30,7 +30,7 @@ export default function HeroSection() {
   ];
 
   return (
-    <section className="py-20 md:py-32 bg-muted/50">
+    <section className="py-20 md:py-32 bg-transparent">
       <div className="container text-center">
         <h1 className="text-4xl md:text-6xl font-extrabold tracking-tighter text-primary">
           {name}
