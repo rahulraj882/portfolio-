@@ -1,3 +1,5 @@
+'use client';
+
 import { portfolioData } from "@/lib/portfolio-data";
 import SectionWrapper from "@/components/shared/section-wrapper";
 import Image from 'next/image';
@@ -8,18 +10,18 @@ export default function SummarySection() {
   return (
     <SectionWrapper id="summary" title="Professional Summary">
         <div className="flex flex-col md:flex-row items-center gap-12">
-            <div className="w-full md:w-1/3">
+            <div className="w-full md:w-1/3 flex justify-center">
                  <Image 
-                    src="https://picsum.photos/seed/rahul/400/400"
-                    width={400}
-                    height={400}
+                    src="/profile-pic.jpeg"
+                    width={250}
+                    height={250}
                     alt="Rahul Raj"
-                    className="rounded-full shadow-lg"
+                    className="rounded-full shadow-lg aspect-square object-cover"
                     data-ai-hint="professional portrait"
                 />
             </div>
             <div className="w-full md:w-2/3">
-                 <p className="text-lg text-muted-foreground leading-relaxed">
+                 <p className="text-lg text-muted-foreground leading-relaxed text-center md:text-left">
                     {summary}
                 </p>
             </div>
