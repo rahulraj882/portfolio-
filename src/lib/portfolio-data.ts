@@ -52,7 +52,7 @@ export const portfolioData: PortfolioData = {
     {
       title: 'Food Ordering Website',
       technologies: 'React.js',
-      link: 'https://github.com/Rahulraj711/Namaste-React',
+      link: 'https://food-ordering-app-chi-one.vercel.app/',
       linkText: 'Link',
       description: [
         'Built a single-page food ordering application using React.js, Tailwind CSS, and REST APIs to fetch real-time restaurant/menu data, with reusable components, custom hooks, and optimized API handling.',
@@ -62,7 +62,7 @@ export const portfolioData: PortfolioData = {
     {
       title: 'Sorting Algorithm Visualizer',
       technologies: 'JavaScript',
-      link: 'https://github.com/Rahulraj711/Sorting-visualizer',
+      link: 'https://rahulraj882.github.io/sorting_visualizer.github.io/',
       linkText: 'Link',
       description: [
         'Built an interactive sorting visualizer using JavaScript to animate major sorting algorithms, gaining hands-on understanding of algorithm complexity.',
@@ -71,7 +71,7 @@ export const portfolioData: PortfolioData = {
     {
       title: 'React counter app',
       technologies: 'React.js',
-      link: 'https://github.com/Rahulraj711/Counter-App',
+      link: 'https://counter-app-git-main-rahulraj882s-projects.vercel.app/',
       linkText: 'Link',
       description: [
         'Developed a minimalist counter application in React, emphasizing state management, component reusability, and clean UI design.',
@@ -80,7 +80,7 @@ export const portfolioData: PortfolioData = {
     {
       title: 'Malware Detection Using Machine Learning',
       technologies: 'Python',
-      link: 'https://github.com/Rahulraj711/Malware-detection',
+      link: 'https://github.com/rahulraj882/Malware-Detection-using-machine-learning',
       linkText: 'Source Code',
       description: [
         'Built a signature-based malware detection engine with improved pattern-matching logic.',
