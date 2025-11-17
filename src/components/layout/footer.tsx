@@ -19,7 +19,7 @@ export default function Footer() {
             </Link>
           </Button>
           <Button variant="ghost" size="icon" asChild>
-            <Link href="https://github.com/Rahulraj711" target="_blank" aria-label="GitHub">
+            <Link href="https://github.com/rahulraj882" target="_blank" aria-label="GitHub">
               <Github className="h-5 w-5" />
             </Link>
           </Button>

@@ -13,7 +13,7 @@ export default function HeroSection() {
       label: "LinkedIn",
     },
     {
-      href: "https://github.com/Rahulraj711",
+      href: "https://github.com/rahulraj882",
       icon: <Github className="h-5 w-5" />,
       label: "GitHub",
     },
