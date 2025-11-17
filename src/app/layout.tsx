@@ -1,6 +1,7 @@
 import type {Metadata} from 'next';
 import './globals.css';
 import { Toaster } from "@/components/ui/toaster"
+import { PageTransition } from '@/components/layout/page-transition';
 
 export const metadata: Metadata = {
   title: 'Rahul Raj | Software Developer',
@@ -24,7 +25,9 @@ export default function RootLayout({
         <div className="fixed inset-0 -z-10 h-full w-full bg-[radial-gradient(circle_farthest-side_at_50%_100%,hsl(var(--primary)/0.15),transparent)]"></div>
         
         <div className="relative z-10">
-          {children}
+          <PageTransition>
+            {children}
+          </PageTransition>
         </div>
         <Toaster />
       </body>

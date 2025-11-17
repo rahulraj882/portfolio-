@@ -1,7 +1,7 @@
 import { portfolioData } from "@/lib/portfolio-data";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
-import { Mail, Phone, Linkedin, Github, ArrowDown } from "lucide-react";
+import { Mail, Phone, Linkedin, Github, ArrowRight } from "lucide-react";
 
 export default function HeroSection() {
   const { name, contact } = portfolioData;
@@ -55,9 +55,9 @@ export default function HeroSection() {
         </div>
         <div className="mt-10">
           <Button asChild size="lg" className="rounded-full group">
-            <Link href="#contact">
+            <Link href="/contact">
               Get in Touch
-              <ArrowDown className="ml-2 h-5 w-5 transform group-hover:translate-y-1 transition-transform" />
+              <ArrowRight className="ml-2 h-5 w-5 transform transition-transform group-hover:translate-x-1" />
             </Link>
           </Button>
         </div>
