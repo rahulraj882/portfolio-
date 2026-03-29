@@ -10,25 +10,12 @@ export function PageTransition({ children }: { children: React.ReactNode }) {
     <AnimatePresence mode="wait">
       <motion.div
         key={pathname}
-        initial="initialState"
-        animate="animateState"
-        exit="exitState"
+        initial={{ opacity: 0, y: 10 }}
+        animate={{ opacity: 1, y: 0 }}
+        exit={{ opacity: 0, y: -10 }}
         transition={{
-          duration: 0.5,
-        }}
-        variants={{
-          initialState: {
-            opacity: 0,
-            clipPath: 'polygon(0 0, 100% 0, 100% 100%, 0% 100%)',
-          },
-          animateState: {
-            opacity: 1,
-            clipPath: 'polygon(0 0, 100% 0, 100% 100%, 0% 100%)',
-          },
-          exitState: {
-            opacity: 0,
-            clipPath: 'polygon(50% 0, 50% 0, 50% 100%, 50% 100%)',
-          },
+          duration: 0.3,
+          ease: [0.23, 1, 0.32, 1],
         }}
       >
         {children}

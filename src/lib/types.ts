@@ -5,10 +5,7 @@ export type Contact = {
 };
 
 export type Skills = {
-  'Programming Languages': string[];
-  'Frontend Technologies': string[];
-  Tools: string[];
-  'CS Fundamentals': string[];
+  [key: string]: string[];
 };
 
 export type Experience = {

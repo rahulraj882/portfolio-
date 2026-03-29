@@ -4,8 +4,8 @@ import { Toaster } from "@/components/ui/toaster"
 import { PageTransition } from '@/components/layout/page-transition';
 
 export const metadata: Metadata = {
-  title: 'Rahul Raj | Software Developer',
-  description: 'Personal portfolio of Rahul Raj, a Software Developer with experience in React, JavaScript, and modern web technologies.',
+  title: 'Rahul Raj | Software Development Engineer',
+  description: 'Portfolio of Rahul Raj — Software Development Engineer with experience in React.js, JavaScript, Node.js, and modern web technologies at Reliance Jio Platforms Limited.',
 };
 
 export default function RootLayout({
@@ -22,7 +22,8 @@ export default function RootLayout({
       </head>
       <body className="font-body antialiased relative">
         <div className="fixed inset-0 -z-10 h-full w-full bg-background tech-pattern"></div>
-        <div className="fixed inset-0 -z-10 h-full w-full bg-[radial-gradient(circle_farthest-side_at_50%_100%,hsl(var(--primary)/0.15),transparent)]"></div>
+        <div className="fixed inset-0 -z-10 h-full w-full bg-[radial-gradient(ellipse_at_top,hsl(var(--primary)/0.12),transparent_50%)]"></div>
+        <div className="fixed inset-0 -z-10 h-full w-full bg-[radial-gradient(ellipse_at_bottom_right,hsl(var(--accent)/0.08),transparent_50%)]"></div>
         
         <div className="relative z-10">
           <PageTransition>

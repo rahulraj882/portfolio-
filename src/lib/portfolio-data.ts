@@ -8,24 +8,14 @@ export const portfolioData: PortfolioData = {
     linkedin: 'https://linkedin.com/in/rahul-raj-9501b2191',
   },
   summary:
-    'Software Developer with hands-on experience in React.js, JavaScript, REST APIs, Redux, and modern frontend architecture. Adept in Agile/Scrum workflows, version control, debugging, and building responsive interfaces. Strong CS foundation with a focus on clean code and maintainable UI development.',
+    'Software Engineer with hands-on experience building scalable, high-performance web applications using React.js, JavaScript and Node.js. Proven ability to optimize frontend performance, refactor large codebases, and deliver maintainable, reusable components in Agile/Scrum environments. Experienced in collaborating with cross-functional teams and integrating APIs.',
   skills: {
-    'Programming Languages': ['C++/C', 'Python', 'Java', 'SQL'],
-    'Frontend Technologies': [
-      'HTML',
-      'CSS',
-      'Figma',
-      'JavaScript',
-      'React.js',
-      'Redux',
-      'Tailwind CSS',
-    ],
-    Tools: ['Git', 'GitHub', 'Azure DevOps', 'Figma', 'MS Office'],
-    'CS Fundamentals': [
-      'Data Structures and Algorithms',
-      'Object-Oriented Programming',
-      'Database Management System',
-    ],
+    'Frontend': ['React.js', 'Redux Toolkit', 'Tailwind CSS', 'HTML5', 'CSS3'],
+    'Languages': ['JavaScript (ES6+)', 'TypeScript', 'C++', 'Python', 'Java', 'SQL'],
+    'Backend & Data': ['Node.js', 'Express.js', 'PostgreSQL', 'REST APIs', 'JSON'],
+    'Tools': ['Git', 'GitHub', 'Azure DevOps', 'Postman', 'VS Code'],
+    'Testing': ['Jest', 'React Testing Library (RTL)', 'Integration Testing', 'Manual Testing'],
+    'Practices': ['Performance Optimization', 'CI/CD', 'Agile/Scrum', 'Code Reviews', 'Data Structures & Algorithms', 'DBMS'],
   },
   certifications: [
     'Learn to code with AI',
@@ -34,29 +24,42 @@ export const portfolioData: PortfolioData = {
   ],
   experience: [
     {
-      company: 'Jio Platforms Limited',
+      company: 'Reliance Jio Platforms Limited',
       period: 'Jan 2024 – Present',
       role: 'Software Development Engineer 1',
-      location: 'Mumbai, India',
+      location: 'Navi Mumbai, India',
       description: [
-        'Led UI development for the People First’s Portal payroll module using React.js, improving billing and data-visualization workflows and reducing data retrieval time by 40%.',
-        'Refactored 15,000+ lines of legacy code into modular, maintainable React components (87% reduction), improving delivery speed by 18% and team efficiency by 21%.',
-        'Designed scalable REST API specifications for microservice communication in partnership with backend teams, improving system integration and decreasing downtime by 5%.',
-        'Performed root cause analysis, troubleshooting, and bug fixing for high-priority production issues, improving stability and reducing user-impacting defects.',
+        'Implemented a user authentication flow using React.js, enabling role-based portal access for Reliance employees and replacing a static email notification system with a dynamic, API-driven asset management interface.',
+        'Built a unified search component in React.js that accepts multiple query parameters (serial number, employee code, domain ID) against a REST API, consolidating 4+ separate input fields into a single intelligent search bar and reducing user interaction overhead significantly.',
+        'Implemented a CSV file upload feature using React.js with client-side parsing and validation, enabling bulk asset ingestion with fields including serial number, assigned user, manager, and cost, replacing manual one-by-one data entry and reducing admin effort substantially.',
+        'Revamped the People First Portal payroll UI using React.js and Tailwind CSS, improving page load times by 40% and enhancing user interaction across 400k+ active employees.',
+        'Refactored 15,000+ lines of legacy code into modular, reusable components, improving maintainability and accelerating feature delivery by 20%.',
         'Collaborated with backend teams to refine API contracts, optimize JSON payloads, standardize API response formats, and improve end-to-end data accuracy.',
-        'Followed Agile methodologies while contributing to sprint planning, code reviews, and CI/CD pipelines in Azure DevOps, and collaborated with DevOps to resolve environment issues, improving staging reliability and reducing deployment downtime.',
+        'Performed root cause analysis, troubleshooting, and bug fixing for high-priority production issues, improving stability and reducing user-impacting defects.',
+        'Contributed to sprint planning, code reviews, and CI/CD pipelines in Azure DevOps while collaborating with DevOps to resolve environment issues, improving staging reliability and minimizing deployment downtime.',
       ],
     },
   ],
   projects: [
     {
-      title: 'Food Ordering Website',
-      technologies: 'React.js',
+      title: 'AI Movie Recommendation App',
+      technologies: 'React.js, Redux Toolkit, Tailwind CSS, OpenAI API, TMDB REST API',
+      link: 'https://github.com/rahulraj882',
+      linkText: 'Source Code',
+      description: [
+        'Engineered a scalable movie recommendation platform using React.js with Redux Toolkit for global state management and Tailwind CSS for fully responsive UI design.',
+        'Integrated OpenAI GPT API and TMDB REST APIs to generate personalized, natural language-based movie recommendations with optimized API handling and efficient state updates.',
+        'Implemented reusable components, lazy loading, and shimmer UI patterns — achieving measurable improvements in perceived load performance and user experience.',
+      ],
+    },
+    {
+      title: 'Food Ordering App',
+      technologies: 'React.js, Node.js, Tailwind CSS, REST APIs, Custom Hooks',
       link: 'https://food-ordering-app-chi-one.vercel.app/',
       linkText: 'Link',
       description: [
-        'Built a single-page food ordering application using React.js, Tailwind CSS, and REST APIs to fetch real-time restaurant/menu data, with reusable components, custom hooks, and optimized API handling.',
-        'Improved overall UX by implementing Shimmer/Skeleton loaders, lazy loading, and search/filter logic, resulting in smoother navigation and 35% faster render performance.',
+        'Built a production-quality food ordering application with real-time restaurant data fetched via REST APIs, reusable component architecture, and optimized API handling using custom hooks.',
+        'Improved render performance by 10% through lazy loading and shimmer loaders, demonstrating hands-on expertise in frontend performance optimization.',
       ],
     },
     {
@@ -66,15 +69,6 @@ export const portfolioData: PortfolioData = {
       linkText: 'Link',
       description: [
         'Built an interactive sorting visualizer using JavaScript to animate major sorting algorithms, gaining hands-on understanding of algorithm complexity.',
-      ],
-    },
-    {
-      title: 'React counter app',
-      technologies: 'React.js',
-      link: 'https://counter-app-git-main-rahulraj882s-projects.vercel.app/',
-      linkText: 'Link',
-      description: [
-        'Developed a minimalist counter application in React, emphasizing state management, component reusability, and clean UI design.',
       ],
     },
     {
@@ -91,7 +85,7 @@ export const portfolioData: PortfolioData = {
   education: {
     university: 'Vellore Institute of Technology',
     period: 'June 2019 – May 2023',
-    degree: 'Bachelor of Technology - Electronics and Communication Engineering',
+    degree: 'Bachelor of Technology – Electronics and Communication Engineering',
     gpa: '8.63',
     location: 'Chennai, India',
   },
